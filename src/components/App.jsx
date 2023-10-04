@@ -1,7 +1,14 @@
+import React from "react";
+import Footer from "./Footer";
 import Header from "./Header";
 
 function App() {
-  return <Header />;
+  return (
+    <React.StrictMode>
+      <Header />
+      <Footer />
+    </React.StrictMode>
+  );
 }
 
 export default App;
